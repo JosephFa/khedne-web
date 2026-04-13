@@ -17,8 +17,7 @@ function CoinIcon() {
   return (
     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="#1B6B3A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
       <circle cx="20" cy="20" r="15" />
-      <path d="M20 9v2M20 29v2" />
-      <path d="M16 14.5c0-2 1.8-3.5 4-3.5s4 1.5 4 3.5c0 2-1.8 3-4 3s-4 1.5-4 3.5 1.8 3.5 4 3.5 4-1.5 4-3.5" />
+      <path d="M13 16h14M13 20h14M13 24h14" />
     </svg>
   );
 }
