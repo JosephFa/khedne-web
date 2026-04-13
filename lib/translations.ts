@@ -11,11 +11,14 @@ export interface Translation {
     menuAriaLabel: string;
   };
   hero: {
-    title: string;
+    badge: string;
+    titleLine1: string;
+    titleLine2: string;
     subtitle: string;
     ctaAppStore: string;
     ctaGooglePlay: string;
     comingSoon: string;
+    ctaTagline: string;
   };
   impact: {
     title: string;
@@ -51,11 +54,14 @@ export const translations: Record<Lang, Translation> = {
   ar: {
     nav: { brand: 'خدني معك', menuAriaLabel: 'القائمة' },
     hero: {
-      title: 'خدني معك — وصّل وانبسط',
-      subtitle: 'شاركوا الطريق وعيشوا الأجواء اللبنانية',
+      badge: '🇱🇧 تطبيق لبناني ١٠٠٪',
+      titleLine1: 'خدني معك',
+      titleLine2: 'وصّل وانبسط',
+      subtitle: 'شارك رحلتك مع لبنانيين موثوقين — وفّر مصاريفك وتعرّف على ناس جديدة',
       ctaAppStore: 'App Store',
       ctaGooglePlay: 'Google Play',
       comingSoon: 'قريباً',
+      ctaTagline: '⭐ الإصدار الأول قريباً — سجّل اهتمامك',
     },
     impact: {
       title: 'لشو خدني معك؟',
@@ -180,11 +186,14 @@ export const translations: Record<Lang, Translation> = {
   fr: {
     nav: { brand: 'Khedne Ma3ak', menuAriaLabel: 'Menu' },
     hero: {
-      title: 'خدني معك — وصّل وانبسط',
-      subtitle: 'Voyagez ensemble, voyagez libanais',
+      badge: '🇱🇧 100% Libanais',
+      titleLine1: 'Voyagez',
+      titleLine2: 'ensemble',
+      subtitle: 'Partagez vos trajets avec des Libanais de confiance — économisez et créez du lien',
       ctaAppStore: 'App Store',
       ctaGooglePlay: 'Google Play',
-      comingSoon: 'Bientôt disponible',
+      comingSoon: 'Bientôt',
+      ctaTagline: '⭐ Première version bientôt — manifestez votre intérêt',
     },
     impact: {
       title: 'Pourquoi Khedne Ma3ak ?',
@@ -379,11 +388,14 @@ En cas de litige, l'utilisateur est invité à contacter l'éditeur par email af
   en: {
     nav: { brand: 'Khedne Ma3ak', menuAriaLabel: 'Menu' },
     hero: {
-      title: 'خدني معك — وصّل وانبسط',
-      subtitle: 'Share the road, share the vibe',
+      badge: '🇱🇧 100% Lebanese',
+      titleLine1: 'Share the',
+      titleLine2: 'road',
+      subtitle: 'Share rides with trusted Lebanese — save money and meet new people',
       ctaAppStore: 'App Store',
       ctaGooglePlay: 'Google Play',
       comingSoon: 'Coming Soon',
+      ctaTagline: '⭐ First version coming soon — show your interest',
     },
     impact: {
       title: 'Why Khedne Ma3ak?',

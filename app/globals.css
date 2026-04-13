@@ -21,3 +21,12 @@
 body {
   background-color: #F5F0E8;
 }
+
+@keyframes float {
+  0%, 100% { transform: rotate(3deg) translateY(0); }
+  50%       { transform: rotate(3deg) translateY(-12px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
