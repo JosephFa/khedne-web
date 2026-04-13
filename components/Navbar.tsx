@@ -20,9 +20,10 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 bg-white shadow-sm">
       <nav
         className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between"
+        dir="ltr"
         aria-label={tr.nav.menuAriaLabel}
       >
-        {/* Logo + Brand */}
+        {/* Logo + Brand — always anchored left, never mirrored */}
         <Link href="/" className="flex items-center gap-2.5 shrink-0">
           <Image
             src="/Logo_KM.png"
@@ -31,8 +32,9 @@ export default function Navbar() {
             height={40}
             className="rounded-xl"
           />
-          <span className="font-bold text-lg text-cedar leading-none">
-            {tr.nav.brand}
+          <span className="font-bold text-lg leading-none">
+            <span className="text-cedar">Khedne</span>
+            <span className="text-sea"> معك</span>
           </span>
         </Link>
 

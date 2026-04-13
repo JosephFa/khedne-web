@@ -84,7 +84,7 @@ function CguContent() {
 
         {/* Contact callout */}
         <div className="bg-cedar-pale border border-cedar-light/30 rounded-2xl p-6 flex flex-col gap-2">
-          <p className="font-semibold text-cedar">Contact</p>
+          <p className="font-semibold text-cedar">{translations[activeTab].footer.links.contact}</p>
           <a
             href="mailto:contact@khedne.app"
             className="text-sea hover:text-sea-light text-sm transition-colors duration-200"
